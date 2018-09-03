@@ -8,7 +8,7 @@ import java.io.Serializable;
  */
 public class Costomer implements Serializable {
     private int usrId;
-    private String usrname;
+    private String username;
     private String password;
 
     public int getUsrId() {
@@ -19,12 +19,12 @@ public class Costomer implements Serializable {
         this.usrId = usrId;
     }
 
-    public String getUsrname() {
-        return usrname;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUsrname(String usrname) {
-        this.usrname = usrname;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -36,13 +36,13 @@ public class Costomer implements Serializable {
     }
 
 //默认构造方法
-    public Costomer(){
+    public Costomer(String username, String password){
 
     }
 
-    public Costomer(int usrId, String usrname, String password) {
+    public Costomer(int usrId, String username, String password) {
         this.usrId = usrId;
-        this.usrname = usrname;
+        this.username = username;
         this.password = password;
     }
 }

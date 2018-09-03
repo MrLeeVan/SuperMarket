@@ -1,0 +1,14 @@
+package main.MarketService;
+
+import main.Bean.Costomer;
+import main.Utils.BusinessException;
+import org.springframework.stereotype.Service;
+
+/**
+ * @Author Leevan
+ * @Date： 2018/9/3 17:06
+ */
+@Service
+public interface CostomerService {
+    public Costomer register(Costomer costomer)throws BusinessException;
+}
