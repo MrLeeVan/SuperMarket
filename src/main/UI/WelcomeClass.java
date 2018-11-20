@@ -22,20 +22,21 @@ public class WelcomeClass extends BaseClass {
                 case "1":
                     try{
                         new LoginClass().login();
-                        print( getString( "login.success" ) );
+                        println( getString( "login.success" ) );
+                        flag = false;
                     }catch (BusinessException e){
-                        print( getString( e.getMessage() ) );
+                        println( getString( e.getMessage() ) );
                     }
                     break;
         //注册
                 case "2":
                     try{
                     new RegisterClass().register();
-                    print( getString( "reg.success" ) );
+                    println( getString( "reg.success" ) );
                     flag = false;
                     }
                     catch (BusinessException e){
-                          print( getString( "reg.error" ) );
+                          println( getString( "reg.error" ) );
                     }
                     break;
                 default:
@@ -45,5 +46,8 @@ public class WelcomeClass extends BaseClass {
             }
 
         }
+        HomeClass homeClass = new HomeClass();
+        homeClass.show();
+
     }
 }
