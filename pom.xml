@@ -82,7 +82,17 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.10-java7</version>
+            <version>1.4.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.io7m.smfj</groupId>
+            <artifactId>io7m-smfj-tests</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
 
     </dependencies>

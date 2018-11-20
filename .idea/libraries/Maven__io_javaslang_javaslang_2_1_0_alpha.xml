@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.javaslang:javaslang:2.1.0-alpha">
+    <CLASSES>
+      <root url="jar://F:/libs/repository/io/javaslang/javaslang/2.1.0-alpha/javaslang-2.1.0-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/libs/repository/io/javaslang/javaslang/2.1.0-alpha/javaslang-2.1.0-alpha-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/libs/repository/io/javaslang/javaslang/2.1.0-alpha/javaslang-2.1.0-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

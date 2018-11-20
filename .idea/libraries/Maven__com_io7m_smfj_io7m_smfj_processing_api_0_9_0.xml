@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.io7m.smfj:io7m-smfj-processing-api:0.9.0">
+    <CLASSES>
+      <root url="jar://F:/libs/repository/com/io7m/smfj/io7m-smfj-processing-api/0.9.0/io7m-smfj-processing-api-0.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/libs/repository/com/io7m/smfj/io7m-smfj-processing-api/0.9.0/io7m-smfj-processing-api-0.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/libs/repository/com/io7m/smfj/io7m-smfj-processing-api/0.9.0/io7m-smfj-processing-api-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
