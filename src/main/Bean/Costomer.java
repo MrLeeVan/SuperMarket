@@ -20,7 +20,7 @@ public class Costomer implements Serializable {
     }
 
     public String getUsername() {
-        return username;
+        return this.username;
     }
 
     public void setUsername(String username) {
@@ -28,7 +28,7 @@ public class Costomer implements Serializable {
     }
 
     public String getPassword() {
-        return password;
+        return this.password;
     }
 
     public void setPassword(String password) {
@@ -36,8 +36,10 @@ public class Costomer implements Serializable {
     }
 
 //默认构造方法
-    public Costomer(String username, String password){
 
+    public Costomer(String username, String password){
+        this.username = username;
+        this.password = password;
     }
 
     public Costomer(int usrId, String username, String password) {

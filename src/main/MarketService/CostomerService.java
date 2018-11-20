@@ -10,5 +10,6 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public interface CostomerService {
-    public Costomer register(Costomer costomer)throws BusinessException;
+     Costomer register(Costomer costomer)throws BusinessException;
+     Costomer login(String username, String password)throws BusinessException;
 }

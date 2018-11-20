@@ -1,11 +1,14 @@
 package main.Bean;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
  * @Author Leevan
  * @Date： 2018/8/17 11:44
  */
+@Data
 public class Clothes implements Serializable {
     private String id;   //商品编号
     private String brand;  // 品牌
@@ -15,6 +18,7 @@ public class Clothes implements Serializable {
     private int num;     //库存
     private float price;  //单价
     private String description;  //商品描述
+/*
 
     public String getId() {
         return id;
@@ -79,6 +83,7 @@ public class Clothes implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
+*/
 
     //默认构造方法
     public Clothes(){

@@ -1,6 +1,7 @@
 package main.UI;
 
 import main.Utils.BusinessException;
+import main.Utils.CostomerIO;
 
 /**
  * @Author Leevan
@@ -9,21 +10,29 @@ import main.Utils.BusinessException;
 public class WelcomeClass extends BaseClass {
     public void start(){
         println( getString( "info.welcome" ) );
+        CostomerIO costomerIO = new CostomerIO();
+        costomerIO.readCostomers();
         boolean flag = true;
         while (flag){
             println( getString( "info.login.reg" ) );
             println( getString( "info.select" ) );
             String select = input.nextLine();
             switch (select){
+        //登陆
                 case "1":
-                    flag = false;
-                    print( "登陆" );
+                    try{
+                        new LoginClass().login();
+                        print( getString( "login.success" ) );
+                    }catch (BusinessException e){
+                        print( getString( e.getMessage() ) );
+                    }
                     break;
+        //注册
                 case "2":
-                    flag = false;
                     try{
                     new RegisterClass().register();
                     print( getString( "reg.success" ) );
+                    flag = false;
                     }
                     catch (BusinessException e){
                           print( getString( "reg.error" ) );
