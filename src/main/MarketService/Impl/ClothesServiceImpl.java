@@ -11,6 +11,7 @@ import java.util.List;
  * @Author Leevan
  * @Date： 2018/11/20 19:00
  */
+/*商品，衣服*/
 public class ClothesServiceImpl implements ClothesService {
     @Override
     public List<Clothes> list() throws BusinessException {

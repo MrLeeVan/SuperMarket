@@ -9,6 +9,8 @@ import main.Utils.BusinessException;
  * @Author Leevan
  * @Date： 2018/9/5 8:25
  */
+
+/*登录实现类*/
 public class LoginClass extends BaseClass {
 
     public void login()throws BusinessException{

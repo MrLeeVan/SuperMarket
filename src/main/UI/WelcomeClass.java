@@ -7,6 +7,7 @@ import main.Utils.CostomerIO;
  * @Author Leevan
  * @Date： 2018/9/3 16:20
  */
+/*主逻辑类，所有程序类的开端*/
 public class WelcomeClass extends BaseClass {
     public void start(){
         println( getString( "info.welcome" ) );
