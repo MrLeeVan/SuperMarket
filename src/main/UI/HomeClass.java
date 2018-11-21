@@ -1,8 +1,11 @@
 package main.UI;
 
 import main.Bean.Clothes;
+import main.Bean.OrderItem;
 import main.MarketService.ClothesService;
 import main.MarketService.Impl.ClothesServiceImpl;
+import main.MarketService.Impl.OrderServiceImpl;
+import main.MarketService.OrderService;
 import main.Utils.ConsoleTable;
 import java.util.List;
 
@@ -11,6 +14,9 @@ import java.util.List;
  * @Date： 2018/11/20 18:31
  */
 public class HomeClass extends BaseClass {
+
+    private OrderService orderService = new OrderServiceImpl();
+
     public void show(){
        showProducts();
        println( "welcome:" +currUser.getUsername() );
@@ -48,7 +54,21 @@ public class HomeClass extends BaseClass {
 
     private void findOrderById(){}
 
-    private void buyProducts(){}
+    private void buyProducts(){
+        //购买商品，生成订单
+        boolean flag = true;
+        while (flag){
+            print( getString( "product.input.id" ) );
+            String id = input.nextLine();
+            println( getString( "product.input.shoppingNum" ) );
+            String shoppingNum =input.nextLine();
+            OrderItem orderItem =new OrderItem(  );
+            orderItem.setShoppingNum( Integer.parseInt( shoppingNum ));
+
+
+        }
+
+    }
 
 
 
