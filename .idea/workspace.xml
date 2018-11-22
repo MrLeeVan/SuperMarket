@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="" />
+    <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="添加">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -215,6 +217,17 @@
             <path>
               <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,41 +235,6 @@
               <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="MarketService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,16 +257,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\my_project\wareHouse\SuperMarket" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.Utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\my_project\wareHouse\SuperMarket\out\artifacts\SuperMarket_jar" />
       <recent name="F:\my_project\wareHouse\SuperMarket\src\main\Utils" />
       <recent name="F:\my_project\wareHouse\SuperMarket" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.Utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\my_project\wareHouse\SuperMarket" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,7 +462,7 @@
       <workItem from="1542721375232" duration="832000" />
       <workItem from="1542771960007" duration="613000" />
       <workItem from="1542777208186" duration="5744000" />
-      <workItem from="1542859661870" duration="6415000" />
+      <workItem from="1542859661870" duration="7733000" />
     </task>
     <task id="LOCAL-00001" summary="注册功能实现">
       <created>1535971677125</created>
@@ -634,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120232000" />
+    <option name="totallyTimeSpent" value="121550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,7 +627,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.52348995" side_tool="true" visible="true" weight="0.27462685" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5241611" side_tool="true" visible="true" weight="0.27313432" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.12801608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -667,7 +645,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8" weight="0.27340266" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.47651008" visible="true" weight="0.27462685" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.47583893" visible="true" weight="0.27313432" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -730,7 +708,8 @@
     <MESSAGE value="订单生成" />
     <MESSAGE value="注解" />
     <MESSAGE value="订单生成功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="订单生成功能" />
+    <MESSAGE value="添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -895,6 +874,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2607">
           <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -939,6 +922,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +932,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
