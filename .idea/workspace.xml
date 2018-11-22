@@ -6,8 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="添加">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Utils/ClothesIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Utils/OrderIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Utils/ProductsXmlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Utils/ProductsXmlUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +31,8 @@
       <file leaf-file-name="HomeClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/UI/HomeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            <state relative-caret-position="233">
+              <caret line="77" column="80" lean-forward="true" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -462,7 +465,7 @@
       <workItem from="1542721375232" duration="832000" />
       <workItem from="1542771960007" duration="613000" />
       <workItem from="1542777208186" duration="5744000" />
-      <workItem from="1542859661870" duration="7733000" />
+      <workItem from="1542859661870" duration="7976000" />
     </task>
     <task id="LOCAL-00001" summary="注册功能实现">
       <created>1535971677125</created>
@@ -612,7 +615,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121550000" />
+    <option name="totallyTimeSpent" value="121793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,7 +630,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5241611" side_tool="true" visible="true" weight="0.27313432" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5241611" side_tool="true" visible="true" weight="0.27313432" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.12801608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -645,7 +648,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8" weight="0.27340266" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.47583893" visible="true" weight="0.27313432" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.47583893" visible="true" weight="0.27313432" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -1086,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/UI/HomeClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="233">
+          <caret line="77" column="80" lean-forward="true" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
