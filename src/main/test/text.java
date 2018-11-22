@@ -1,7 +1,6 @@
 package main.test;
 
-import main.Bean.Costomer;
-import main.Utils.CostomerIO;
+import main.DtoIO.CostomerIO;
 
 /**
  * @Author Leevan
