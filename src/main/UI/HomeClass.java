@@ -12,6 +12,7 @@ import main.Utils.ConsoleTable;
 import main.Utils.DateUtils;
 
 import javax.security.auth.login.AccountException;
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
@@ -44,9 +45,15 @@ public class HomeClass extends BaseClass {
                    flag = false;
                    break;
                case "3":/*购买*/
+                   try{
                    buyProducts();
-                   flag = false;
+                   flag = false; }
+                   catch(BusinessException e)
+                   {
+                       println( e.getMessage() );
+                   }
                    break;
+
                case "0":/*退出*/
                    flag = false;
                    System.exit( 0 );
@@ -62,7 +69,7 @@ public class HomeClass extends BaseClass {
     private void findList(){}
 
     private void findOrderById(){}
-
+/*购买商品的过程*/
     private void buyProducts() throws BusinessException {
         //购买商品，生成订单
         Order order =new Order(  );
@@ -85,6 +92,7 @@ public class HomeClass extends BaseClass {
                  throw new BusinessException( "product.num.error" );
             }
             //一条订单明细
+            clothes.setNum( clothes.getNum() - num ); //减库存！
             orderItem.setClothes( clothes );
             orderItem.setShoppingNum( num );
             orderItem.setSum( clothes.getPrice()*num );
@@ -92,12 +100,29 @@ public class HomeClass extends BaseClass {
             orderItem.setItemId( count++ );
             order.getOrderItemList().add(orderItem);
 
+            println( getString( "product.buy.continue" ) );
+            String buy = input.nextLine();
+            switch(buy){
+                case "1":
+                    flag = true ;
+                    break;
+                case "2":
+                    flag = false ;
+                    break;
+                default:
+                    flag = false;
+                    break;
+            }
+
         }
          //总订单明细
         order.setCreateDate( DateUtils.toDate( new Date(  ) ) );
         order.setUsrId( currUser.getUsrId() );
         order.setSum( sum );
         order.setOrderId( orderService.list().size() +1 );
+        orderService.buyProduct( order );
+        clothesService.update();
+        showProducts();
 
 
     }

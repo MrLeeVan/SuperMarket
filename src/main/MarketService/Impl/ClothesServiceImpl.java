@@ -26,4 +26,8 @@ public class ClothesServiceImpl implements ClothesService {
         return clothesIO.findById( cid );
 
     }
+    @Override
+    public void update() throws BusinessException{
+        clothesIO.update();
+    }
 }
