@@ -2,7 +2,7 @@ package main.MarketService.Impl;
 
 import main.Bean.Clothes;
 import main.MarketService.ClothesService;
-import main.Utils.BusinessException;
+import main.Util.BusinessException;
 import main.DtoIO.ClothesIO;
 
 import java.util.List;

@@ -334,16 +334,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.Utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\my_project\wareHouse\SuperMarket" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\my_project\wareHouse\SuperMarket\out\artifacts\SuperMarket_jar" />
       <recent name="F:\my_project\wareHouse\SuperMarket\src\main\Utils" />
       <recent name="F:\my_project\wareHouse\SuperMarket" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\my_project\wareHouse\SuperMarket" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.Utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -371,7 +371,7 @@
       </extension>
     </configuration>
     <configuration name="ConsoleTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Utils.ConsoleTable" />
+      <option name="MAIN_CLASS_NAME" value="main.Util.ConsoleTable" />
       <module name="SuperMarket" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">

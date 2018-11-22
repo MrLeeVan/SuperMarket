@@ -1,7 +1,7 @@
 package main.MarketService;
 
 import main.Bean.Clothes;
-import main.Utils.BusinessException;
+import main.Util.BusinessException;
 
 import java.util.List;
 

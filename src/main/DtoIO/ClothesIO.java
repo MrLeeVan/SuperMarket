@@ -1,8 +1,8 @@
 package main.DtoIO;
 
 import main.Bean.Clothes;
-import main.Utils.BusinessException;
-import main.Utils.ProductsXmlUtils;
+import main.Util.BusinessException;
+import main.Util.ProductsXmlUtils;
 
 import java.util.ArrayList;
 import java.util.List;

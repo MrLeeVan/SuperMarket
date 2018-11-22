@@ -3,7 +3,7 @@ package main.UI;
 import main.Bean.Costomer;
 import main.MarketService.CostomerService;
 import main.MarketService.Impl.CostomerServiceImpl;
-import main.Utils.BusinessException;
+import main.Util.BusinessException;
 
 /**
  * @Author Leevan
