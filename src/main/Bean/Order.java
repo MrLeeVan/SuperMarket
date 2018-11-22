@@ -1,6 +1,6 @@
 package main.Bean;
 
-import main.Util.OrderStatusType;
+import main.Utils.OrderStatusType;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package main.UI;
 
-import main.Util.BusinessException;
+import main.Utils.BusinessException;
 import main.DtoIO.CostomerIO;
 
 /**

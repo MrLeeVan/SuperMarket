@@ -1,7 +1,7 @@
 package main.DtoIO;
 
 import main.Bean.Costomer;
-import main.Util.BusinessException;
+import main.Utils.BusinessException;
 
 import java.io.*;
 import java.util.ArrayList;

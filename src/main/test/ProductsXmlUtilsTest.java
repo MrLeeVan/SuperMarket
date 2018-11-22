@@ -1,6 +1,6 @@
 package main.test;
 import main.Bean.Clothes;
-import main.Util.ProductsXmlUtils;
+import main.Utils.ProductsXmlUtils;
 import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;

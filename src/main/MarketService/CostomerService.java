@@ -1,7 +1,7 @@
 package main.MarketService;
 
 import main.Bean.Costomer;
-import main.Util.BusinessException;
+import main.Utils.BusinessException;
 import org.springframework.stereotype.Service;
 
 /**
