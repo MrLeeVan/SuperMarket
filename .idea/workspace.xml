@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SuperMarket" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMarket" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DtoIO/ClothesIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DtoIO/ClothesIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DtoIO/CostomerIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DtoIO/CostomerIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DtoIO/OrderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DtoIO/OrderIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/ClothesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/ClothesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/CostomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/CostomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/Impl/ClothesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/Impl/ClothesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/Impl/CostomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/Impl/CostomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/Impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MarketService/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MarketService/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UI/HomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/HomeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UI/LoginClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/LoginClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UI/RegisterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/RegisterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UI/WelcomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/WelcomeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Util" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/ProductsXmlUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/ProductsXmlUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SuperMarket/main/Res/run.bat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -304,6 +288,19 @@
               <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -354,21 +351,6 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/Bean/Order.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/DtoIO/ClothesIO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/DtoIO/CostomerIO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/DtoIO/OrderIO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/ClothesService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/CostomerService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/Impl/ClothesServiceImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/Impl/CostomerServiceImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/Impl/OrderServiceImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/MarketService/OrderService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/UI/HomeClass.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/UI/LoginClass.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/UI/RegisterClass.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/UI/WelcomeClass.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/test/ProductsXmlUtilsTest.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -376,34 +358,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Application.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Bean/Clothes.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Bean/Costomer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Bean/Order.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Bean/OrderItem.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/ClothesService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/CostomerService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/Impl/ClothesServiceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/Impl/CostomerServiceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/Impl/OrderServiceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/MarketService/OrderService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/UI/BaseClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/UI/HomeClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/UI/LoginClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/UI/RegisterClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/UI/WelcomeClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/BusinessException.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/ClothesIO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/ConsoleTable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/CostomerIO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/DateUtils.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/EmptyUtils.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/OrderIO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/OrderStatusType.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/Utils/ProductsXmlUtils.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/test/ProductsXmlUtilsTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/main/test/text.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/target/classes/production/SuperMarket/main/Res/run.bat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SuperMarket/src/main/Util</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -686,7 +641,7 @@
       <workItem from="1542771960007" duration="613000" />
       <workItem from="1542777208186" duration="5744000" />
       <workItem from="1542859661870" duration="11396000" />
-      <workItem from="1542876483038" duration="1426000" />
+      <workItem from="1542876483038" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="注册功能实现">
       <created>1535971677125</created>
@@ -821,7 +776,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542877676423</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加23">
+      <created>1542877947005</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542877947005</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加23">
+      <created>1542878081349</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542878081349</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -857,7 +826,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126639000" />
+    <option name="totallyTimeSpent" value="126935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +841,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5248322" side_tool="true" visible="true" weight="0.371134" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.52550334" side_tool="true" visible="true" weight="0.371134" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.12801608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -889,10 +858,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8" weight="0.27340266" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.79932886" weight="0.23858616" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.47516778" visible="true" weight="0.371134" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.47449663" visible="true" weight="0.371134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -957,7 +926,8 @@
     <MESSAGE value="添加1" />
     <MESSAGE value="添加2" />
     <MESSAGE value="添加22" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加22" />
+    <MESSAGE value="添加23" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
