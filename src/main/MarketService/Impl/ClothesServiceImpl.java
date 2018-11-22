@@ -3,6 +3,7 @@ package main.MarketService.Impl;
 import main.Bean.Clothes;
 import main.MarketService.ClothesService;
 import main.Utils.BusinessException;
+import main.Utils.ClothesIO;
 import main.Utils.ProductsXmlUtils;
 
 import java.util.List;
@@ -13,14 +14,16 @@ import java.util.List;
  */
 /*商品，衣服*/
 public class ClothesServiceImpl implements ClothesService {
+    private ClothesIO clothesIO = new ClothesIO();
     @Override
     public List<Clothes> list() throws BusinessException {
-        List<Clothes> clothes = ProductsXmlUtils.parserProductFormXml();
-        return clothes;
+
+        return clothesIO.clothesList();
     }
 
     @Override
     public Clothes findById(int cid) throws BusinessException {
-        return null;
+        return clothesIO.findById( cid );
+
     }
 }

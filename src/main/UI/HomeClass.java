@@ -1,12 +1,18 @@
 package main.UI;
 
 import main.Bean.Clothes;
+import main.Bean.Order;
 import main.Bean.OrderItem;
 import main.MarketService.ClothesService;
 import main.MarketService.Impl.ClothesServiceImpl;
 import main.MarketService.Impl.OrderServiceImpl;
 import main.MarketService.OrderService;
+import main.Utils.BusinessException;
 import main.Utils.ConsoleTable;
+import main.Utils.DateUtils;
+
+import javax.security.auth.login.AccountException;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,6 +24,7 @@ import java.util.List;
 public class HomeClass extends BaseClass {
 
     private OrderService orderService = new OrderServiceImpl();
+    private ClothesService clothesService =new ClothesServiceImpl();
 
     public void show(){
        showProducts();
@@ -56,8 +63,11 @@ public class HomeClass extends BaseClass {
 
     private void findOrderById(){}
 
-    private void buyProducts(){
+    private void buyProducts() throws BusinessException {
         //购买商品，生成订单
+        Order order =new Order(  );
+        int count =1 ;
+        float sum = 0.0f;
         boolean flag = true;
         while (flag){
             print( getString( "product.input.id" ) );
@@ -65,18 +75,37 @@ public class HomeClass extends BaseClass {
             println( getString( "product.input.shoppingNum" ) );
             String shoppingNum =input.nextLine();
             OrderItem orderItem =new OrderItem(  );
-            orderItem.setShoppingNum( Integer.parseInt( shoppingNum ));
+            Clothes clothes = clothesService.findById( Integer.parseInt( id ) );
 
+
+            /***************************/
+            orderItem.setClothes( clothes );
+            int num = Integer.parseInt( shoppingNum );
+            if(num > clothes.getNum()){
+                 throw new BusinessException( "product.num.error" );
+            }
+            //一条订单明细
+            orderItem.setClothes( clothes );
+            orderItem.setShoppingNum( num );
+            orderItem.setSum( clothes.getPrice()*num );
+            sum += orderItem.getSum();
+            orderItem.setItemId( count++ );
+            order.getOrderItemList().add(orderItem);
 
         }
+         //总订单明细
+        order.setCreateDate( DateUtils.toDate( new Date(  ) ) );
+        order.setUsrId( currUser.getUsrId() );
+        order.setSum( sum );
+        order.setOrderId( orderService.list().size() +1 );
+
 
     }
 
 
-
+/*控制台上展示商品列表 :*/
 
     private void showProducts(){
-        ClothesService clothesService = new ClothesServiceImpl();
         List<Clothes> list = clothesService.list();
         ConsoleTable t = new ConsoleTable( 8, true );
         t.appendRow();
