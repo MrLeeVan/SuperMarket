@@ -8,6 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="减负1">
       <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/SuperMarket.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/oder.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/products.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/user.obj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/Application.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/Bean/Clothes.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/Bean/Costomer.class" afterDir="false" />
@@ -37,10 +41,13 @@
       <change afterPath="$PROJECT_DIR$/target/classes/main/Utils/ProductsXmlUtils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/test/ProductsXmlUtilsTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/test/text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperMarket" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oder.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oder.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMarket.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SuperMarket/main/Res/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Res/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,8 +135,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="-578">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -305,13 +312,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kitty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VersionCtrol" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -523,7 +530,7 @@
       <workItem from="1542876483038" duration="7983000" />
       <workItem from="1542946364366" duration="9269000" />
       <workItem from="1542956492038" duration="4006000" />
-      <workItem from="1542961328211" duration="7973000" />
+      <workItem from="1542961328211" duration="8513000" />
     </task>
     <task id="LOCAL-00001" summary="注册功能实现">
       <created>1535971677125</created>
@@ -707,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542971976839</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="减负1">
+      <created>1542972550267</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1542972550267</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -743,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154444000" />
+    <option name="totallyTimeSpent" value="154984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +772,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53087246" side_tool="true" visible="true" weight="0.40942562" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.53087246" side_tool="true" visible="true" weight="0.40942562" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.12801608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -777,7 +791,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7872483" weight="0.23416789" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4691275" visible="true" weight="0.40942562" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4691275" visible="true" weight="0.40942562" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -828,6 +842,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/main/Utils" />
+      <path value="$PROJECT_DIR$/SuperMarket" />
     </ignored-roots>
     <MESSAGE value="我的" />
     <MESSAGE value="注册功能实现" />
@@ -853,7 +868,8 @@
     <MESSAGE value="目录内的各项功能实现" />
     <MESSAGE value="终极版本" />
     <MESSAGE value="减肥" />
-    <option name="LAST_COMMIT_MESSAGE" value="减肥" />
+    <MESSAGE value="减负1" />
+    <option name="LAST_COMMIT_MESSAGE" value="减负1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1225,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-578">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
