@@ -16,11 +16,13 @@ public class OrderIO {
     private static final String ORDER_FILE ="oder.obj";
     public void add(Order order) throws BusinessException {
         orders.add( order );
+        writeOrder();
 
     }
 
     public List<Order> list() throws BusinessException{
-     return orders;
+        readOrders();
+        return orders;
     }
 
     public Order findByOrderId(int orderId) throws BusinessException{
@@ -36,7 +38,7 @@ public class OrderIO {
         return order;
     }
 
-    public boolean readOrder(){
+    public boolean readOrders(){
         try{
             ObjectInputStream in = new ObjectInputStream( new FileInputStream( ORDER_FILE ) );
             orders = ((List<Order>) in.readObject());

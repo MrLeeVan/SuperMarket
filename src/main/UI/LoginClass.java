@@ -13,13 +13,23 @@ import main.Utils.BusinessException;
 /*登录实现类*/
 public class LoginClass extends BaseClass {
 
+    public String LoginDate;
+    public String getLoginDate() {
+        return LoginDate;
+    }
+
+    public void setLoginDate(String loginDate) {
+        LoginDate = loginDate;
+    }
+
     public void login()throws BusinessException{
-        println( getString( "input.username" ) );
+        print( getString( "input.username" ) );
         String username = input.nextLine();
-        println( getString( "input.password" ) );
+        print( getString( "input.password" ) );
         String password = input.nextLine();
         CostomerService costomerService = new CostomerServiceImpl() ;
         Costomer costomer = costomerService.login( username, password );
+
 
         if(costomer!=null){
             currUser = costomer;

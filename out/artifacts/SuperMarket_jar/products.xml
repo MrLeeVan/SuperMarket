@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <list>
-    <clothes id="A0001">
-        <brand>VEROMODA</brand>
-        <style>Х©·Х║ёХё≥</style>
-        <color>Г≥╫Х┴╡</color>
-        <size>s</size>
-        <num>4</num>
-        <price>123</price>
-        <description>Е╓▐Е╜ёИ─┌Е╝°</description>
-    </clothes>
-    <clothes id="A0002">
-        <brand>VEROMODA</brand>
-        <style>Х©·Х║ёХё≥</style>
-        <color>Г≥╫Х┴╡</color>
-        <size>s</size>
-        <num>4</num>
-        <price>123</price>
-        <description>Е╓▐Е╜ёИ─┌Е╝°</description>
-    </clothes>
-    <clothes id="A0003">
-        <brand>VEROMODA</brand>
-        <style>Х©·Х║ёХё≥</style>
-        <color>Г≥╫Х┴╡</color>
-        <size>s</size>
-        <num>4</num>
-        <price>123</price>
-        <description>Е╓▐Е╜ёИ─┌Е╝°</description>
-    </clothes>
-
+  <clothes id="A0001">
+    <brand>VEROMODA</brand>
+    <style>а╛рбх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>2</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A0002">
+    <brand>VEROMODA</brand>
+    <style>а╛рбх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>3</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A0003">
+    <brand>VEROMODA</brand>
+    <style>а╛рбх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>4</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
 </list>
-

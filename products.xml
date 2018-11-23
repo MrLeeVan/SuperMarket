@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <list>
-  <clothes id="A0001">
+  <clothes id="A001">
     <brand>VEROMODA</brand>
-    <style>连衣裙</style>
-    <color>白色</color>
+    <style>长裙</style>
+    <color>红色</color>
     <size>s</size>
-    <num>3</num>
+    <num>85</num>
     <price>123.0</price>
     <description>夏季适宜</description>
   </clothes>
-  <clothes id="A0002">
+  <clothes id="A002">
     <brand>VEROMODA</brand>
     <style>连衣裙</style>
     <color>白色</color>
     <size>s</size>
-    <num>4</num>
+    <num>96</num>
+    <price>1213.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A003">
+    <brand>VEROMODA</brand>
+    <style>短裙</style>
+    <color>白色</color>
+    <size>s</size>
+    <num>100</num>
     <price>123.0</price>
     <description>夏季适宜</description>
   </clothes>
-  <clothes id="A0003">
+  <clothes id="A004">
+    <brand>VEROMODA</brand>
+    <style>长裙</style>
+    <color>红色</color>
+    <size>s</size>
+    <num>97</num>
+    <price>123.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A005">
     <brand>VEROMODA</brand>
     <style>连衣裙</style>
-    <color>白色</color>
+    <color>蓝色</color>
     <size>s</size>
-    <num>4</num>
-    <price>123.0</price>
+    <num>98</num>
+    <price>1333.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A006">
+    <brand>VEROMODA</brand>
+    <style>超短裙</style>
+    <color>黑色</color>
+    <size>s</size>
+    <num>100</num>
+    <price>113.0</price>
     <description>夏季适宜</description>
   </clothes>
 </list>
