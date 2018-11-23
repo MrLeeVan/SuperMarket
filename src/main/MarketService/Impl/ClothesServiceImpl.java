@@ -21,7 +21,7 @@ public class ClothesServiceImpl implements ClothesService {
     }
 
     @Override
-    public Clothes findById(int cid) throws BusinessException {
+    public Clothes findById(String cid) throws BusinessException {
         return clothesIO.findById( cid );
 
     }

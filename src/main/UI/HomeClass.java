@@ -77,10 +77,10 @@ public class HomeClass extends BaseClass {
         while (flag){
             print( getString( "product.input.id" ) );
             String id = input.nextLine();
-            println( getString( "product.input.shoppingNum" ) );
+            print( getString( "product.input.shoppingNum" ) );
             String shoppingNum =input.nextLine();
-            OrderItem orderItem =new OrderItem(  );
-            Clothes clothes = clothesService.findById( Integer.parseInt( id ) );
+            OrderItem orderItem =new OrderItem();
+            Clothes clothes = clothesService.findById(id);
 
 
             /***************************/

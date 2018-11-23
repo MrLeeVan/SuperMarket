@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class ClothesIO {
     private static List<Clothes> clothesList = new ArrayList<>(  );
-    public Clothes findById(int cid) throws BusinessException {
+    public Clothes findById(String cid) throws BusinessException {
         for(Clothes c: clothesList()){
             if(c.getId().equals( cid )){
                 return c ;
