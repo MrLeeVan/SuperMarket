@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="617a374b-3ab6-43b5-9b9e-a75eaae9fd0e" name="Default" comment="减负1">
-      <change afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/oder.obj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/artifacts/SuperMarket_jar/products.xml" afterDir="false" />
@@ -43,12 +43,14 @@
       <change afterPath="$PROJECT_DIR$/target/classes/main/test/ProductsXmlUtilsTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/main/test/text.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oder.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oder.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/SuperMarket.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/SuperMarket.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/oder.obj" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/oder.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperMarket_jar/products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMarket.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SuperMarket/main/Res/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Res/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UI/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UI/HomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/HomeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UI/LoginClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/LoginClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UI/RegisterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UI/RegisterClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,11 +68,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/UI/HomeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,19 +92,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Bean/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WelcomeClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/UI/WelcomeClass.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="-132">
               <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
@@ -130,26 +122,8 @@
       <file leaf-file-name="BeanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothesServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/MarketService/Impl/ClothesServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CostomerIO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/DtoIO/CostomerIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="-76">
+              <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,11 +131,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clothes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Bean/Clothes.java">
+      <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UI/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="419">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UI/LoginClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UI/RegisterClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Costomer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Bean/Costomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,7 +227,6 @@
         <option value="$PROJECT_DIR$/src/main/Bean/Order.java" />
         <option value="$PROJECT_DIR$/src/main/Res/run.bat" />
         <option value="$PROJECT_DIR$/src/main/Res/r.properties" />
-        <option value="$PROJECT_DIR$/src/main/UI/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/MarketService/Impl/CostumerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/Utils/EmptyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/Bean/Clothes.java" />
@@ -228,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/main/Utils/ProductsXmlUtils.java" />
         <option value="$PROJECT_DIR$/src/main/MarketService/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/Utils/OrderIO.java" />
-        <option value="$PROJECT_DIR$/src/main/UI/RegisterClass.java" />
         <option value="$PROJECT_DIR$/src/main/Utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/Utils/ClothesIO.java" />
         <option value="$PROJECT_DIR$/src/main/Utils/EmptyUtils.java" />
@@ -239,15 +253,17 @@
         <option value="$PROJECT_DIR$/src/main/MarketService/Impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/DtoIO/OrderIO.java" />
         <option value="$PROJECT_DIR$/products.xml" />
-        <option value="$PROJECT_DIR$/src/main/UI/LoginClass.java" />
         <option value="$PROJECT_DIR$/src/main/Res/r_temp.properties" />
         <option value="$PROJECT_DIR$/src/main/UI/WelcomeClass.java" />
-        <option value="$PROJECT_DIR$/src/main/UI/HomeClass.java" />
         <option value="$PROJECT_DIR$/src/main/MarketService/CostomerService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/bean.fxml" />
         <option value="$PROJECT_DIR$/src/bean.xml" />
         <option value="$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/UI/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/main/UI/LoginClass.java" />
+        <option value="$PROJECT_DIR$/src/main/UI/RegisterClass.java" />
+        <option value="$PROJECT_DIR$/src/main/UI/HomeClass.java" />
       </list>
     </option>
   </component>
@@ -301,7 +317,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,12 +327,42 @@
               <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="FreamWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,6 +592,7 @@
       <workItem from="1542961328211" duration="11473000" />
       <workItem from="1543031150317" duration="3210000" />
       <workItem from="1543554020674" duration="1198000" />
+      <workItem from="1543724631596" duration="5037000" />
     </task>
     <task id="LOCAL-00001" summary="注册功能实现">
       <created>1535971677125</created>
@@ -748,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542977093268</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="减负1">
+      <created>1543724814983</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543724814983</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +840,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162352000" />
+    <option name="totallyTimeSpent" value="167389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,37 +855,37 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49932885" weight="0.32842416" />
-      <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21543624" side_tool="true" visible="true" weight="0.30633286" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21610738" side_tool="true" visible="true" weight="0.39469808" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.12801608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7845638" weight="0.39469808" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4671141" weight="0.46391752" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
-      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49798658" weight="0.48600882" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49932885" weight="0.32842416" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4852349" weight="0.32547864" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49731544" weight="0.32838038" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.78389263" visible="true" weight="0.39469808" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.46644294" weight="0.20471281" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12416107" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49798658" weight="0.48600882" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4852349" weight="0.32547864" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="CDI" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
     </layout>
@@ -921,7 +977,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/UI/HomeClass.java</url>
-          <line>177</line>
+          <line>181</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -1097,13 +1153,6 @@
         <state relative-caret-position="-793" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UI/RegisterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Bean/OrderItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -1135,13 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Bean/Costomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Res/r_temp.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -1153,27 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UI/LoginClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UI/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UI/HomeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1212,10 +1233,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UI/WelcomeClass.java">
+    <entry file="file://$PROJECT_DIR$/src/bean.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/bean.tld" />
+    <entry file="file://$PROJECT_DIR$/src/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="297">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1229,22 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/bean.tld" />
-    <entry file="file://$PROJECT_DIR$/src/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/MarketService/Impl/ClothesServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1252,10 +1266,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/Bean/Costomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="429">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/FreamWork/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UI/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UI/LoginClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UI/RegisterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UI/WelcomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="32" selection-start-line="32" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UI/HomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

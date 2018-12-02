@@ -22,9 +22,13 @@ import java.util.List;
 /*登陆后的主界面*/
 public class HomeClass extends BaseClass {
 
-    private OrderService orderService = new OrderServiceImpl();
-    private ClothesService clothesService =new ClothesServiceImpl();
+    private OrderService orderService ;
+    private ClothesService clothesService ;
 
+    public HomeClass(){
+        orderService = (OrderService) beanFactory.getBaen( "orderService" );
+        clothesService = (ClothesService) beanFactory.getBaen( "clothesService" );
+    }
     public void show() {
         SimpleDateFormat df = new SimpleDateFormat( "yyyy-MM-dd  hh:mm:ss" );;
         print( "welcome:" + currUser.getUsername() );

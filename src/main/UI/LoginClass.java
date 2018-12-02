@@ -12,6 +12,10 @@ import main.Utils.BusinessException;
 
 /*登录实现类*/
 public class LoginClass extends BaseClass {
+    private CostomerService costomerService;
+    public LoginClass(){
+       costomerService = (CostomerService) beanFactory.getBaen( "costomerService" );
+    }
 
     public String LoginDate;
     public String getLoginDate() {
@@ -27,7 +31,7 @@ public class LoginClass extends BaseClass {
         String username = input.nextLine();
         print( getString( "input.password" ) );
         String password = input.nextLine();
-        CostomerService costomerService = new CostomerServiceImpl() ;
+//        CostomerService costomerService = new CostomerServiceImpl() ;   优化后删除
         Costomer costomer = costomerService.login( username, password );
 
 
