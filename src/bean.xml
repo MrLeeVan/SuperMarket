@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id = "clothesService" class = "main.MarketService.Impl.ClothesServiceImpl"></bean>
+    <bean id = "costomerService" class = "main.MarketService.Impl.CostomerServiceImpl"></bean>
+    <bean id = "orderService" class = "main.MarketService.Impl.OrderServiceImpl"></bean>
+
+</beans>
