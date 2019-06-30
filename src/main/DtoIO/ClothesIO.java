@@ -27,8 +27,6 @@ public class ClothesIO {
         }
         return clothesList;
     }
-
-
     /*更新XML文件*/
     public void update() throws BusinessException{
         ProductsXmlUtils.writeProductToXml( clothesList() );

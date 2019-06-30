@@ -100,4 +100,5 @@ public class Clothes implements Serializable {
         this.price = price;
         this.description = description;
     }
+
 }

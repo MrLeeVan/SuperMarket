@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <clothes id="A001">
+    <brand>VO</brand>
+    <style>Ё╓х╧</style>
+    <color>╨Ли╚</color>
+    <size>s</size>
+    <num>49</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A002">
+    <brand>VOA</brand>
+    <style>а╛рбх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>73</num>
+    <price>1213.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A003">
+    <brand>VRMODA</brand>
+    <style>╤лх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>100</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A004">
+    <brand>VEROMODA</brand>
+    <style>Ё╓х╧</style>
+    <color>╨Ли╚</color>
+    <size>s</size>
+    <num>97</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A005">
+    <brand>VMODA</brand>
+    <style>а╛рбх╧</style>
+    <color>ю╤и╚</color>
+    <size>s</size>
+    <num>98</num>
+    <price>133.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A006">
+    <brand>VERDA</brand>
+    <style>Ё╛╤лх╧</style>
+    <color>╨зи╚</color>
+    <size>s</size>
+    <num>100</num>
+    <price>113.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A007">
+    <brand>VERDA</brand>
+    <style>Ё╓х╧</style>
+    <color>╨Ли╚</color>
+    <size>s</size>
+    <num>72</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A008">
+    <brand>VEROMODA</brand>
+    <style>а╛х╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>73</num>
+    <price>1213.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A009">
+    <brand>VEROMODA</brand>
+    <style>╤лх╧</style>
+    <color>╟ви╚</color>
+    <size>s</size>
+    <num>100</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+  <clothes id="A010">
+    <brand>DA</brand>
+    <style>Ё╓х╧</style>
+    <color>╨Ли╚</color>
+    <size>s</size>
+    <num>97</num>
+    <price>123.0</price>
+    <description>од╪╬ййрк</description>
+  </clothes>
+</list>

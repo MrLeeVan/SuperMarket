@@ -11,10 +11,10 @@ import main.Utils.BusinessException;
  */
 /*注册实现类*/
 public class RegisterClass extends BaseClass {
-    CostomerService costomerService;
+   /* CostomerService costomerService;
     public RegisterClass(){
-        costomerService = (CostomerService) beanFactory.getBaen( "costomerService" );
-    }
+        costomerService = (CostomerService) beanFactory.getBean( "CostomerService" );
+    }*/
 
     public void register() throws BusinessException {
         println( getString( "input.username" ) );
@@ -22,7 +22,7 @@ public class RegisterClass extends BaseClass {
         println( getString( "input.password" ) );
         String password = input.nextLine();
         Costomer costomer = new Costomer( username, password );
-//        CostomerService costomerService = new CostomerServiceImpl();  优化后删除，使程序依赖于借口，而不依赖于具体的类！
+        CostomerService costomerService = new CostomerServiceImpl();  //优化后删除，使程序依赖于借口，而不依赖于具体的类！
         costomerService.register( costomer );
     }
 }

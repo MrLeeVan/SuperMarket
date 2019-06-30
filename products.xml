@@ -5,7 +5,7 @@
     <style>长裙</style>
     <color>红色</color>
     <size>s</size>
-    <num>72</num>
+    <num>68</num>
     <price>123.0</price>
     <description>夏季适宜</description>
   </clothes>
@@ -52,6 +52,42 @@
     <size>s</size>
     <num>100</num>
     <price>113.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A007">
+    <brand>VEROMODA</brand>
+    <style>长裙</style>
+    <color>红色</color>
+    <size>s</size>
+    <num>72</num>
+    <price>123.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A008">
+    <brand>VEROMODA</brand>
+    <style>连衣裙</style>
+    <color>白色</color>
+    <size>s</size>
+    <num>73</num>
+    <price>1213.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A009">
+    <brand>VEROMODA</brand>
+    <style>短裙</style>
+    <color>白色</color>
+    <size>s</size>
+    <num>100</num>
+    <price>123.0</price>
+    <description>夏季适宜</description>
+  </clothes>
+  <clothes id="A010">
+    <brand>VEROMODA</brand>
+    <style>长裙</style>
+    <color>红色</color>
+    <size>s</size>
+    <num>97</num>
+    <price>123.0</price>
     <description>夏季适宜</description>
   </clothes>
 </list>

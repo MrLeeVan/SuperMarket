@@ -22,13 +22,13 @@ import java.util.List;
 /*登陆后的主界面*/
 public class HomeClass extends BaseClass {
 
-    private OrderService orderService ;
-    private ClothesService clothesService ;
+    private OrderService orderService =new OrderServiceImpl();
+    private ClothesService clothesService = new ClothesServiceImpl();
 
-    public HomeClass(){
-        orderService = (OrderService) beanFactory.getBaen( "orderService" );
-        clothesService = (ClothesService) beanFactory.getBaen( "clothesService" );
-    }
+    /*public HomeClass(){
+        orderService = (OrderService)beanFactory.getBean( "orderService" );
+        clothesService = (ClothesService)beanFactory.getBean( "clothesService" );
+    }*/
     public void show() {
         SimpleDateFormat df = new SimpleDateFormat( "yyyy-MM-dd  hh:mm:ss" );;
         print( "welcome:" + currUser.getUsername() );
@@ -113,6 +113,7 @@ public class HomeClass extends BaseClass {
         }
 
         System.out.println( table.toString() );
+        menu();
     }
 
     private void findOrderById(){

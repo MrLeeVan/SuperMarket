@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id = "clothesService" class = "main.MarketService.Impl.ClothesServiceImpl"></bean>
+    <bean id = "costomerService" class = "main.MarketService.Impl.CostomerServiceImpl"></bean>
+    <bean id = "orderService" class = "main.MarketService.Impl.OrderServiceImpl"></bean>
+
+</beans>
